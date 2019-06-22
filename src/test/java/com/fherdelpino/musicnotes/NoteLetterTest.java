@@ -11,18 +11,18 @@ import static org.junit.Assert.assertEquals;
 public class NoteLetterTest {
 
     @Test
-    public void noteLetter_ATest_toString() {
-        assertEquals("A",NoteLetter.A.toString());
+    public void noteLetter_testA_toString() {
+        assertEquals("A", NoteLetter.A.toString());
     }
 
     @Test
-    public void noteLetter_BTest_name() {
-        assertEquals("B",NoteLetter.B.name());
+    public void noteLetter_testB_name() {
+        assertEquals("B", NoteLetter.B.name());
     }
 
     @Test
-    public void noteLetter_ordinal_test() {
-
+    public void noteLetter_testC_ordinal() {
+        assertEquals(2, NoteLetter.C.ordinal());
     }
 
     @Test
@@ -47,7 +47,7 @@ public class NoteLetterTest {
         sortedList.add(NoteLetter.F);
         sortedList.add(NoteLetter.G);
 
-        assertEquals(sortedList,scale);
+        assertEquals(sortedList, scale);
 
     }
 
